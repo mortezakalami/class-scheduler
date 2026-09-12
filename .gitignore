@@ -1,42 +1,98 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
-.env
-.venv
-env/
+# Virtual environments
+.venv/
 venv/
+env/
 ENV/
+env.bak/
+venv.bak/
 
-# IDE / Editor specific files
+# PyInstaller / build outputs
+build/
+dist/
+*.manifest
+*.pkg
+*.exe
+*.toc
+warn-*.txt
+xref-*.html
+
+# اگر می‌خواهی فایل‌های .spec را در گیت نگه داری، خط زیر را کامنت کن
+# *.spec
+
+# IDE / Editor
 .idea/
 .vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.swp
+*.swo
+*~
 
-# Data files
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / cache
+*.log
+logs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# داده‌های محلی یا خروجی برنامه — در صورت نیاز فعال کن
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller / build outputs
+build/
+dist/
+*.manifest
+*.pkg
+*.exe
+*.toc
+warn-*.txt
+xref-*.html
+
+# اگر می‌خواهی فایل‌های .spec را در گیت نگه داری، خط زیر را کامنت کن
+# *.spec
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / cache
+*.log
+logs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# داده‌های محلی یا خروجی برنامه — در صورت نیاز فعال کن
 schedule_data.json
+route.txt

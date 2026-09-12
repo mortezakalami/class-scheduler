@@ -11,13 +11,9 @@ def get_app_data_path(app_name, filename):
         application_path = os.path.dirname(os.path.abspath(__file__))
 
 
-    if sys.platform == "win32":
-        app_data_dir = os.path.join(os.getenv('APPDATA'), app_name)
 
         app_data_dir = os.path.join(os.path.expanduser('~/Library/Application Support'), app_name)
-    else:
 
-        app_data_dir = os.path.join(os.path.expanduser('~/.local/share'), app_name)
  
 
     if not os.path.exists(app_data_dir):
